@@ -7,7 +7,7 @@ import org.junit.Test;
 public class IdGeneratorTest {
 
     @Test
-    public void shouldAnswerWithTrue() {
+    public void testGenerateId() {
         int i = 0;
         long start = System.currentTimeMillis();
         while (i<1000) {
